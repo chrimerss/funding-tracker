@@ -1,0 +1,40 @@
+# Funding opportunities tracked by the dashboard.
+#
+# One list item per opportunity. Required fields: id, title, funder, url,
+# deadline, domain, keywords. Amounts are numbers (no commas or $).
+#
+#   id:            short unique slug, used for the .ics UID
+#   title:         program name
+#   funder:        funding organization
+#   url:           official program page
+#   deadline:      YYYY-MM-DD (next upcoming deadline)
+#   deadline_time: optional, e.g. "15:00"
+#   timezone:      optional IANA name, e.g. "America/New_York"
+#   amount_min:    optional number
+#   amount_max:    optional number
+#   currency:      optional, default USD
+#   amount_note:   optional free text (duration, caveats)
+#   domain:        broad area, used for the domain filter and chart
+#   keywords:      list of tags
+#   notes:         optional free text
+
+- id: bwf-cgt-2027
+  title: Career Guidance for Trainees (CGT)
+  funder: Burroughs Wellcome Fund
+  url: https://www.bwfund.org/grants/career-guidance/career-guidance-for-trainees/
+  deadline: 2027-01-13
+  deadline_time: "15:00"
+  timezone: America/New_York
+  amount_min: 15000
+  amount_max: 25000
+  currency: USD
+  amount_note: One-year pilot award, Aug 1, 2027 - Jul 31, 2028. BWF's 2025 annual report cites up to $50,000 (likely an older cap); confirm in the current RFP.
+  domain: Biomedical sciences - career development
+  keywords:
+    - career readiness
+    - trainees
+    - graduate students
+    - postdocs
+    - pilot program
+    - institutional grant
+  notes: Funds practical, affordable and transferable career-readiness models. Applicants are institutions, professional societies and nonprofits. Firm deadline via BWF online system; notification end of May 2027.
