@@ -2,7 +2,8 @@
 
 Static dashboard of funding opportunities, deployed to GitHub Pages.
 
-- Search, domain/keyword/status filters, sorting by deadline or amount
+- Grouped by agency; agencies ordered by next deadline, calls within each agency ranked by deadline (closed last)
+- Search and domain/keyword/status filters
 - Deadline status: open, closing soon (≤ 30 days), closed
 - Calendar export (`deadlines.ics`, with a 2-week reminder)
 - Summary charts: count by domain, deadlines per month

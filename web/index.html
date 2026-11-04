@@ -62,6 +62,9 @@
   th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
   th { font-size: .78rem; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
   tr:last-child td { border-bottom: 0; }
+  tr.grp th { background: var(--accent-soft); color: var(--text); text-transform: none; letter-spacing: 0;
+    font-size: .9rem; padding: 8px 12px; }
+  tr.grp th span { color: var(--muted); font-weight: 400; font-size: .8rem; margin-left: 6px; }
   td .t { font-weight: 600; }
   td .f { color: var(--muted); font-size: .85rem; }
   td .note { color: var(--muted); font-size: .8rem; margin-top: 4px; }
@@ -81,6 +84,7 @@
     thead { display: none; }
     tr { border-bottom: 1px solid var(--border); padding: 6px 0; }
     td { border: 0; padding: 4px 12px; }
+    tr.grp { padding: 0; } tr.grp th { display: block; }
     td[data-l]::before { content: attr(data-l) ": "; color: var(--muted); font-size: .78rem; }
   }
 </style>
@@ -112,16 +116,11 @@
       <option value="soon">Closing soon (≤ 30 days)</option>
       <option value="closed">Closed</option>
     </select>
-    <select id="sort" aria-label="Sort">
-      <option value="deadline">Sort: deadline</option>
-      <option value="amount">Sort: max amount</option>
-      <option value="title">Sort: title</option>
-    </select>
   </section>
   <div class="chips" id="chips"></div>
 
   <table>
-    <thead><tr><th>Opportunity</th><th>Amount</th><th>Deadline</th><th>Domain</th><th>Keywords</th></tr></thead>
+    <thead><tr><th>Agency / Opportunity</th><th>Amount</th><th>Deadline</th><th>Domain</th><th>Keywords</th></tr></thead>
     <tbody id="rows"></tbody>
   </table>
 </div>
@@ -167,8 +166,8 @@ function tzAbbr(it) {
 
 function filtered() {
   const q = $("q").value.trim().toLowerCase();
-  const dom = $("domain").value, st = $("status").value, sort = $("sort").value;
-  let out = state.items.filter(it => {
+  const dom = $("domain").value, st = $("status").value;
+  return state.items.filter(it => {
     const s = status(it);
     if (st === "active" && s === "closed") return false;
     if (st && st !== "active" && s !== st) return false;
@@ -180,30 +179,48 @@ function filtered() {
     }
     return true;
   });
-  const cmp = {
-    deadline: (a, b) => a.deadline.localeCompare(b.deadline),
-    amount: (a, b) => (b.amount_max ?? b.amount_min ?? -1) - (a.amount_max ?? a.amount_min ?? -1),
-    title: (a, b) => a.title.localeCompare(b.title),
-  }[sort];
-  return out.sort(cmp);
+}
+
+// Deadline rank: upcoming soonest-first, then closed most-recent-first.
+function byDeadline(a, b) {
+  const ca = status(a) === "closed", cb = status(b) === "closed";
+  if (ca !== cb) return ca ? 1 : -1;
+  return ca ? b.deadline.localeCompare(a.deadline) : a.deadline.localeCompare(b.deadline);
+}
+
+// Group by agency; groups ordered by their best-ranked (next) deadline.
+function groupByAgency(list) {
+  const groups = new Map();
+  for (const it of [...list].sort(byDeadline)) {
+    if (!groups.has(it.funder)) groups.set(it.funder, []);
+    groups.get(it.funder).push(it);
+  }
+  return [...groups.entries()];
 }
 
 function renderRows(list) {
   if (!list.length) { $("rows").innerHTML = `<tr><td colspan="5" class="empty">No opportunities match these filters.</td></tr>`; return; }
-  $("rows").innerHTML = list.map(it => {
+  $("rows").innerHTML = groupByAgency(list).map(([agency, items]) => {
+    const open = items.filter(it => status(it) !== "closed");
+    const meta = open.length ? `${open.length} open · next ${fmtDate(open[0].deadline)}` : "no open calls";
+    return `<tr class="grp"><th colspan="5">${esc(agency)} <span>${items.length} · ${meta}</span></th></tr>` +
+      items.map(row).join("");
+  }).join("");
+}
+
+function row(it) {
     const s = status(it), n = daysLeft(it.deadline);
     const label = s === "closed" ? "Closed" : n === 0 ? "Due today" : `${n} day${n === 1 ? "" : "s"} left`;
     const time = it.deadline_time ? `${esc(it.deadline_time)} ${esc(tzAbbr(it))}` : "";
     return `<tr>
       <td><div class="t"><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></div>
-          <div class="f">${esc(it.funder)}</div>${it.notes ? `<div class="note">${esc(it.notes)}</div>` : ""}</td>
+          ${it.notes ? `<div class="note">${esc(it.notes)}</div>` : ""}</td>
       <td data-l="Amount"><span class="num">${amount(it)}</span>${it.amount_note ? `<div class="note">${esc(it.amount_note)}</div>` : ""}</td>
       <td data-l="Deadline"><span class="num">${fmtDate(it.deadline)}</span><div class="f">${time}</div>
           <span class="badge s-${s}">${label}</span></td>
       <td data-l="Domain">${esc(it.domain)}</td>
       <td data-l="Keywords"><div class="tags">${it.keywords.map(k => `<span class="tag">${esc(k)}</span>`).join("")}</div></td>
     </tr>`;
-  }).join("");
 }
 
 function renderKpis() {
@@ -256,7 +273,7 @@ fetch("data.json").then(r => r.json()).then(data => {
   renderKpis(); renderCharts(); renderChips(); render();
 }).catch(() => { $("updated").textContent = "Could not load data.json"; });
 
-["q", "domain", "status", "sort"].forEach(id => $(id).addEventListener("input", render));
+["q", "domain", "status"].forEach(id => $(id).addEventListener("input", render));
 $("chips").addEventListener("click", e => {
   const k = e.target.dataset?.k; if (!k) return;
   state.kw.has(k) ? state.kw.delete(k) : state.kw.add(k);
