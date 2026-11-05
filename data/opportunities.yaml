@@ -112,3 +112,22 @@
     - NISAR
     - landslides
   notes: "Added 2026-11-03. Not rolling. Program element NNH25ZDA001N-GEO, added by ROSES-2025 Amendment 77. Dual anonymous review. The S/T/M section is limited to 10 pages. It will not fund other federal institutions through interagency agreements. Eligibility: Check source for US university PI rules. Fit: partial. The scope is geohazards and how one hazard triggers another. The angle that matches Zhi's work is cascading hazards, such as rainfall-triggered landslides after floods, using NISAR or Sentinel-1 data."
+
+- id: catalyst-fund-exploratory-2026
+  title: Catalyst Fund, Research Software in the Age of AI - Exploratory Fund
+  funder: Catalyst Fund (Research Software in the Age of AI)
+  url: https://researchsoftwarecatalyst.fund/apply/
+  deadline: 2026-12-31
+  amount_max: 50000
+  currency: USD
+  amount_note: Up to $50,000 for 3 to 6 months of work. The total pool is still to be confirmed. A later Impact Fund (up to $200,000, 9 to 12 months) is planned to open in 2027.
+  domain: Research software - AI-assisted research
+  keywords:
+    - non-federal
+    - research software
+    - AI-assisted research
+    - scientific Python
+    - open source
+    - verification
+    - exploratory grant
+  notes: "Added 2026-11-04. Not rolling. One-time fund for the practices, tools and training that make AI-assisted research software reliable. Application is a two-page plain-language proposal with a simple budget and schedule. Programme chair: Karthik Ram (UC Berkeley). Eligibility: Check source. Deadline check: the date comes from search results that quote the official site. The site itself was not reachable from this session, and an older CURIOSS listing gave a late-October 2026 date, so confirm on the apply page. Fit: GPU-native hydraulic simulation code, scientific Python (PyTorch, xarray, Zarr) tooling, and benchmarks that test whether AI hydrologic models obey physics."
