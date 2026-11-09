@@ -131,3 +131,81 @@
     - verification
     - exploratory grant
   notes: "Added 2026-11-04. Not rolling. One-time fund for the practices, tools and training that make AI-assisted research software reliable. Application is a two-page plain-language proposal with a simple budget and schedule. Programme chair: Karthik Ram (UC Berkeley). Eligibility: Check source. Deadline check: the date comes from search results that quote the official site. The site itself was not reachable from this session, and an older CURIOSS listing gave a late-October 2026 date, so confirm on the apply page. Fit: GPU-native hydraulic simulation code, scientific Python (PyTorch, xarray, Zarr) tooling, and benchmarks that test whether AI hydrologic models obey physics."
+
+- id: noaa-nccos-coastal-flood-protection-2026
+  title: Advancing coastal flood protection through public-private partnerships, innovative insurance products, and improved sediment management
+  funder: NOAA National Centers for Coastal Ocean Science (NCCOS)
+  url: https://coastalscience.noaa.gov/news/noaa-announces-funding-opportunity-to-advance-coastal-flood-protection/
+  deadline: 2026-11-09
+  deadline_time: "23:59"
+  timezone: America/New_York
+  amount_max: 2000000
+  currency: USD
+  amount_note: Up to about $500,000 per year, capped at $2,000,000 per project, for up to 4 years. NCCOS expects to fund 1 to 6 projects. Planned start is 2027-09-01. This date is the required letter of intent. Full applications are due 2027-02-12.
+  domain: Flood risk - coastal hazards
+  keywords:
+    - federal
+    - NOAA
+    - coastal flooding
+    - flood risk
+    - insurance
+    - hurricanes
+    - cooperative agreement
+  notes: "Added 2026-11-09. Not rolling. Opportunity NOAA-NOS-NCCOS-2026-32934. A letter of intent is required. It is due 2026-11-09 at 11:59 pm ET, by email to nccos.grant.awards@noaa.gov. Full applications are due 2027-02-12 at 11:59 pm ET. Check whether a missed letter blocks a full application. Eligibility: US institutions of higher education are eligible. Source check: the official page could not be fetched in this session. Dates come from search results that quote the NCCOS and Grants.gov listings. Fit: partial. Hurricane flood modeling and flood loss estimates could support the flood-risk and insurance themes. Sediment management is outside Zhi's work, and the topic is coastal."
+
+- id: noaa-cpo-ml-innovation-fy2027
+  title: Climate Program Office FY 2027 - Super Intelligence/Machine Learning Innovation to Advance NOAA's Earth System Science and Support Hazard Resilience
+  funder: NOAA Climate Program Office
+  url: https://simpler.grants.gov/opportunity/df29db0f-809b-40ad-9cbe-c7954b9e5cfd
+  deadline: 2027-02-09
+  amount_note: Check source. The listing's award fields look garbled (minimum $1, maximum $750,000). A third-party summary lists about 15 awards at $250,000 per year. That is not confirmed.
+  domain: Artificial intelligence - Earth system science
+  keywords:
+    - federal
+    - NOAA
+    - machine learning
+    - AI for Earth science
+    - hazard resilience
+    - Earth system modeling
+    - flood forecasting
+  notes: "Added 2026-11-09. Not rolling. The closing date 2027-02-09 comes from the Simpler.Grants.gov listing. The opportunity number NOAA-OAR-CPO-2027-33392 comes from a third-party summary, so confirm it. That summary also lists a letter of intent due 2026-11-17. This is not confirmed. Check the full announcement now for an LOI step. Eligibility: Check source. Source check: the official page could not be fetched in this session. Fit: AI and machine learning for Earth system science and hazard resilience. Matches hydrologic foundation models, AI flood forecasting and benchmarks that test whether AI hydrologic models obey physics."
+
+- id: nsf-26-512-ai-datasets-2027
+  title: Unlocking Dataset Value for AI-Enabled Scientific Discovery (AI Datasets)
+  funder: National Science Foundation
+  url: https://www.nsf.gov/funding/opportunities/ai-datasets-unlocking-dataset-value-ai-enabled-scientific-discovery
+  deadline: 2027-11-03
+  deadline_time: "17:00"
+  timezone: America/Denver
+  amount_max: 2000000
+  currency: USD
+  amount_note: Impact awards go up to $2,000,000 (10 to 20 awards). The program expects 25 to 50 awards in total. Duration is Check source. Funding depends on available funds.
+  domain: Artificial intelligence - scientific datasets
+  keywords:
+    - federal
+    - NSF
+    - AI-ready data
+    - benchmarks
+    - datasets
+    - Earth observation
+    - hydrology
+  notes: "Added 2026-11-09. Not rolling. Solicitation NSF 26-512. The 2026 deadline (2026-11-04) has passed. The date above is the 2027 deadline. It repeats on the first Wednesday of November each year, due 5 pm submitting organization local time. The program makes existing datasets ready for AI use. It does not fund new data collection. Proposals must address dataset security, integrity and governance. Eligibility: Check source. Contact: aidatasets@nsf.gov. Source check: the official page could not be fetched in this session. Dates come from search results that quote nsf.gov. Fit: AI-ready flood and hydrologic datasets, Earth observation flood-mapping training sets (Sentinel-1, HLS, MRMS) and benchmark sets for AI hydrologic models."
+
+- id: nsf-26-506-pesose-2027
+  title: Pathways to Enable Secure Open-Source Ecosystems (PESOSE)
+  funder: National Science Foundation
+  url: https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems
+  deadline: 2027-03-02
+  amount_max: 300000
+  currency: USD
+  amount_note: Track 1 (scoping and planning a new ecosystem) is capped at $300,000. The other tracks are Check source.
+  domain: Research software - open-source ecosystems
+  keywords:
+    - federal
+    - NSF
+    - open source
+    - research software
+    - scientific Python
+    - GPU
+    - community building
+  notes: "Added 2026-11-09. Not rolling. Solicitation NSF 26-506. It replaced POSE, which no longer takes applications. Deadlines fall on the first Tuesday of March and September. The 2026-09-01 date has passed. The next dates are 2027-03-02 and 2027-09-07. Three tracks cover scoping a new ecosystem, establishing or expanding one, and improving safety, security and privacy. Eligibility: Check source. Source check: the official page could not be fetched in this session. Dates come from search results that quote nsf.gov. Fit: partial. It fits only if the GPU-native hydraulic code or a scientific Python tool can grow into a community-run open-source project with users beyond the lab."
