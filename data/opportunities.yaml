@@ -209,3 +209,98 @@
     - GPU
     - community building
   notes: "Added 2026-11-09. Not rolling. Solicitation NSF 26-506. It replaced POSE, which no longer takes applications. Deadlines fall on the first Tuesday of March and September. The 2026-09-01 date has passed. The next dates are 2027-03-02 and 2027-09-07. Three tracks cover scoping a new ecosystem, establishing or expanding one, and improving safety, security and privacy. Eligibility: Check source. Source check: the official page could not be fetched in this session. Dates come from search results that quote nsf.gov. Fit: partial. It fits only if the GPU-native hydraulic code or a scientific Python tool can grow into a community-run open-source project with users beyond the lab."
+
+- id: nsf-26-516-geo-core
+  title: "Geosciences Core Research: Atmospheric, Geospace, Earth and Ocean Sciences (GEO Core) - rolling, no deadline"
+  funder: National Science Foundation
+  url: https://www.nsf.gov/funding/opportunities/geo-core-geosciences-core-research-atmospheric-geospace-earth-ocean
+  deadline: 2027-12-31
+  amount_note: Solicitation NSF 26-516 lists about $110,000,000 in total funding for an estimated 200 to 350 awards. Average award size is Check source. NSF encourages requests of up to five years where longer awards help. Funding depends on available funds.
+  domain: Earth system science - geosciences core research
+  keywords:
+    - federal
+    - NSF
+    - rolling
+    - hydrology
+    - flood modeling
+    - hazards
+    - AI for Earth science
+    - Earth observation
+  notes: "Added 2026-11-16. Rolling: yes. Proposals are accepted anytime. The date above is a placeholder, not a due date. NSF 26-516 consolidates 15 earlier GEO funding opportunities, including the hydrology-related Water, Landscape, and Critical Zone Processes (WaLCZ) program. The older programs took proposals only until 2026-09-25, so GEO Core is now the route for these topics. Eligibility: Check source for US university PI rules. Source check: the official page could not be fetched in this session. Details come from search results that quote nsf.gov. Fit: hydrologic simulation, coupled hydrologic-hydraulic modeling, hydrologic foundation models and Earth observation flood mapping. Pick the program area and contact the program officer before drafting."
+
+- id: nsf-26-515-cmmi-core
+  title: "Engineering (ENG): Civil, Mechanical, and Manufacturing Innovation (CMMI) core programs, including Engineering for the Built Environment - rolling, no deadline"
+  funder: National Science Foundation
+  url: https://www.nsf.gov/funding/opportunities/engineering-eng-civil-mechanical-manufacturing-innovation
+  deadline: 2027-12-31
+  amount_note: Solicitation NSF 26-515 estimates 225 to 275 awards and about $100,000,000 in total funding. Award size and duration are Check source. Funding depends on available funds.
+  domain: Civil infrastructure - hazards engineering
+  keywords:
+    - federal
+    - NSF
+    - rolling
+    - civil infrastructure
+    - resilience
+    - extreme events
+    - cascading hazards
+    - flood impacts
+  notes: "Added 2026-11-16. Rolling: yes. Proposals are accepted anytime. The date above is a placeholder, not a due date. NSF 26-515 covers several CMMI programs, including Engineering for the Built Environment (EBE), which supports foundational research on civil infrastructure and civil infrastructure systems. The CAREER program keeps its own fixed date. NSF's no-deadline policy bars resubmitting a declined or substantively similar proposal for one year, so confirm the rule in the solicitation. Eligibility: Check source for US university PI rules. Source check: the official page could not be fetched in this session. Details come from search results that quote nsf.gov. Fit: partial. It fits flood impacts on infrastructure and cascading hazards. Pure hydrologic modeling or AI work fits GEO Core better."
+
+- id: nasa-roses25-a4-rrnes
+  title: ROSES-2025 A.4 Rapid Response and Novel Research in Earth Science (RRNES)
+  funder: NASA Science Mission Directorate, Earth Science Division
+  url: https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7BF2C85D95-15CF-AB33-C8A7-2BF14ADA5A8A%7D
+  deadline: 2026-12-31
+  deadline_time: "23:59"
+  timezone: America/New_York
+  amount_note: Check source for award size and duration. This is the final close date. Proposals may be submitted any time before it.
+  domain: Earth observation - rapid response
+  keywords:
+    - federal
+    - NASA
+    - rolling
+    - rapid response
+    - Earth observation
+    - flood mapping
+    - NISAR
+    - remote sensing
+  notes: "Added 2026-11-16. Rolling: yes, until 2026-12-31. The element has no fixed due date. NASA set the close date to the end of this calendar year so that the next ROSES and its RRNES can open. The date moved several times in 2026, so confirm it in NSPIRES. Scope: unforeseen Earth system events that need a rapid response, and novel high-merit ideas that advance Earth remote sensing. Eligibility: Check source for US university PI rules. Federal agencies other than NASA and FFRDCs other than JPL are not funded. PIs and Co-Is above 10 percent time must certify research security training on proposals submitted after 2026-08-05. Fit: partial. A major flood event could support a rapid-response study with NISAR, Sentinel-1 or HLS flood mapping, or a novel remote sensing idea for flood forecasting. Only about six weeks remain."
+
+- id: usace-erdc-baa-w912hz26s0001
+  title: ERDC Broad Agency Announcement W912HZ26S0001 - rolling pre-proposals
+  funder: U.S. Army Corps of Engineers, Engineer Research and Development Center (ERDC)
+  url: https://simpler.grants.gov/opportunity/98696099-8a71-4a7c-8e2d-1dfcf3817f75
+  deadline: 2027-01-01
+  amount_note: Cooperative agreement. The Grants.gov listing says no cost share or match is required. The listed maximum award looks like a placeholder, so award size and duration are Check source.
+  domain: Hydrology and hydraulics - civil works research
+  keywords:
+    - federal
+    - USACE
+    - ERDC
+    - rolling
+    - flood modeling
+    - hydrology
+    - hydraulics
+    - cooperative agreement
+    - broad agency announcement
+  notes: "Added 2026-11-16. Rolling: yes. The announcement is continuously open. Pre-proposals may be submitted and are reviewed at any time. The listed close date 2027-01-01 looks nominal, because ERDC has posted a new BAA in recent years. Topic areas and the pre-proposal format are on the ERDC WERX page (erdcwerx.org). Earlier ERDC BAAs listed flood control, riverine and estuarine hydrodynamics and hydrology topics, so check the current list. Eligibility: Check source. Source check: the official pages could not be fetched in this session. Dates come from search results that quote the SAM.gov and Grants.gov listings. Fit: flood modeling, coupled hydrologic-hydraulic modeling and GPU-native 2D hydraulic simulation for Corps civil works. Contact the relevant ERDC laboratory before sending a pre-proposal."
+
+- id: nhc-health-extreme-weather-research-awards
+  title: Health and Extreme Weather Research Award Program - rolling, no deadline
+  funder: Natural Hazards Center, University of Colorado Boulder
+  url: https://hazards.colorado.edu/research/health-and-extreme-weather-research
+  deadline: 2027-12-31
+  amount_min: 10000
+  amount_max: 50000
+  currency: USD
+  amount_note: Up to $10,000 for single-investigator or single-discipline proposals. Up to $50,000 for larger multidisciplinary or interdisciplinary teams. Awards continue until funds are used up.
+  domain: Flood impacts - public health
+  keywords:
+    - non-federal
+    - CU Boulder
+    - rolling
+    - public health
+    - extreme weather
+    - flood impacts
+    - rapid response
+  notes: "Added 2026-11-16. Rolling: yes. Proposals are accepted until funds are exhausted. The date above is a placeholder, not a due date. The study must cover the health impacts of a US extreme weather event that happened shortly before submission. The center's pages disagree on the window (6 or 9 months), so confirm it. Eligibility: the lead researcher needs a PhD or equivalent and must be at an academic institution in a US state, territory or tribal nation. Deliverables: a 20-page report within six months of award activation, then a 2-page research brief. Contact: haz.research.awards@colorado.edu. Category: non-federal (university center). Check source for any federal sponsor. Source check: the official page could not be fetched in this session. Details come from search results that quote hazards.colorado.edu. Fit: partial. Flood impacts on public health. It suits a post-event study that pairs flood extent or depth maps with health data."
