@@ -304,3 +304,67 @@
     - flood impacts
     - rapid response
   notes: "Added 2026-11-16. Rolling: yes. Proposals are accepted until funds are exhausted. The date above is a placeholder, not a due date. The study must cover the health impacts of a US extreme weather event that happened shortly before submission. The center's pages disagree on the window (6 or 9 months), so confirm it. Eligibility: the lead researcher needs a PhD or equivalent and must be at an academic institution in a US state, territory or tribal nation. Deliverables: a 20-page report within six months of award activation, then a 2-page research brief. Contact: haz.research.awards@colorado.edu. Category: non-federal (university center). Check source for any federal sponsor. Source check: the official page could not be fetched in this session. Details come from search results that quote hazards.colorado.edu. Fit: partial. Flood impacts on public health. It suits a post-event study that pairs flood extent or depth maps with health data."
+
+- id: packard-fellowships-science-engineering-2027
+  title: Packard Fellowships for Science and Engineering (2027 class)
+  funder: David and Lucile Packard Foundation
+  url: https://www.colorado.edu/researchinnovation/david-and-lucile-packard-foundation-fellowships-science-and-engineering
+  deadline: 2026-12-01
+  deadline_time: "23:59"
+  timezone: America/Denver
+  amount_max: 1017000
+  currency: USD
+  amount_note: $1,017,000 in unrestricted funds over 5 years, starting with the 2027 class (up from $875,000). This figure comes from search results and is not confirmed on packard.org.
+  domain: Early career - natural science and engineering
+  keywords:
+    - non-federal
+    - foundation
+    - early career
+    - fellowship
+    - limited submission
+    - earth science
+    - engineering
+    - unrestricted funding
+  notes: "Added 2026-11-23. Not rolling. The date above is the CU Boulder internal deadline (11:59 pm MST) set by the Research & Innovation Office. One other listing gave December 8, 2026, so confirm it. The sponsor date is not set yet. CU lists March 15, 2027 as anticipated, and the foundation usually posts new guidelines in mid-December. The foundation invites selected universities to nominate, and each campus sends only a few nominees. Eligibility: young faculty in their first three years as faculty, in natural science, physical science or engineering. Earth science and all branches of engineering are in scope. Check source for Zhi's start date against the three-year window. Source check: packard.org could not be fetched in this session. Details come from CU Boulder pages and search results. Fit: partial. It is an early-career award and is not tied to a topic. The case would rest on the Flood Lab program as a whole: flood modeling, hydrologic AI and Earth observation flood mapping."
+
+- id: usbr-watersmart-applied-science-r25as00280-round2
+  title: WaterSMART Applied Science Grants (R25AS00280), second round
+  funder: U.S. Bureau of Reclamation
+  url: https://www.usbr.gov/watersmart/appliedscience/
+  deadline: 2027-04-13
+  deadline_time: "17:00"
+  timezone: America/Denver
+  amount_max: 400000
+  currency: USD
+  amount_note: Up to $400,000 in federal funds per project, finished within 2 years. About $6,000,000 in total for about 20 awards. A 50 percent non-federal cost share is required. Funding depends on annual appropriations.
+  domain: Water resources - hydrologic modeling and forecasting
+  keywords:
+    - federal
+    - Bureau of Reclamation
+    - WaterSMART
+    - hydrologic modeling
+    - forecasting
+    - water management
+    - Colorado River Basin
+    - reservoir operations
+    - cost share
+  notes: "Added 2026-11-23. Not rolling. Opportunity R25AS00280. Round 1 closed 2026-07-08. This is the second and final round. Eligibility: states, tribes, irrigation and water districts, and other water or power delivery entities in the Western US. Universities and nonprofit research organizations are eligible if they partner with an entity that has water delivery authority. One webinar slide lists broader applicant types, so confirm with the program coordinator (Stephanie Hellekson, shellekson@usbr.gov). Eligible work includes modeling and forecasting tools, hydrologic data platforms and new data sets. Source check: the official pages could not be fetched in this session. Details come from search results that quote usbr.gov and Grants.gov. Fit: hydrologic simulation and water resource management, including reservoir operations in the Colorado River Basin, and AI forecasting tools built with a water agency partner. A water delivery partner is needed, so line one up well before spring."
+
+- id: orau-powe-junior-faculty-2027
+  title: Ralph E. Powe Junior Faculty Enhancement Awards
+  funder: Oak Ridge Associated Universities (ORAU)
+  url: https://www.orau.org/partnerships/grant-programs/powe/
+  deadline: 2027-01-06
+  amount_min: 5000
+  amount_max: 10000
+  currency: USD
+  amount_note: ORAU gives $5,000. The home institution must add at least $5,000. One-year grant, June 1 to May 31. No overhead is allowed on the award or the match.
+  domain: Early career - research seed funding
+  keywords:
+    - non-federal
+    - early career
+    - seed funding
+    - junior faculty
+    - engineering
+    - ORAU member institution
+  notes: "Added 2026-11-23. Not rolling. The date above is the sponsor close date. Each institution first nominates up to two faculty, so CU Boulder likely has an earlier internal deadline. Check the Research & Innovation Office page for it. Eligibility: full-time tenure-track assistant professors at ORAU member institutions, within two years of the first tenure-track appointment. A nomination letter from the chair or dean is needed. Check source for Zhi's start date. Research areas include engineering and applied science. Check source for the full list. Contact: poweawards@orau.org. Source check: orau.org could not be fetched in this session. Details come from search results that quote ORAU and university pages. Fit: partial. It is a small early-career seed award and is not tied to a topic. It could fund student support or GPU time for the Flood Lab hydraulic code."
