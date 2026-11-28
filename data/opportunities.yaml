@@ -368,3 +368,23 @@
     - engineering
     - ORAU member institution
   notes: "Added 2026-11-23. Not rolling. The date above is the sponsor close date. Each institution first nominates up to two faculty, so CU Boulder likely has an earlier internal deadline. Check the Research & Innovation Office page for it. Eligibility: full-time tenure-track assistant professors at ORAU member institutions, within two years of the first tenure-track appointment. A nomination letter from the chair or dean is needed. Check source for Zhi's start date. Research areas include engineering and applied science. Check source for the full list. Contact: poweawards@orau.org. Source check: orau.org could not be fetched in this session. Details come from search results that quote ORAU and university pages. Fit: partial. It is a small early-career seed award and is not tied to a topic. It could fund student support or GPU time for the Flood Lab hydraulic code."
+
+- id: esip-lab-rfp-2026
+  title: "ESIP Lab RFP: Connected Data - Interoperability, Discovery, and AI-Ready Access"
+  funder: Earth Science Information Partners (ESIP)
+  url: https://www.esipfed.org/lab/rfp/
+  deadline: 2026-12-14
+  amount_max: 25000
+  currency: USD
+  amount_note: $25,000 total this cycle for 1-3 projects, awarded whole or split. Paid against deliverables (at least 2 chunks); no indirect costs. Period of performance Feb 1 - Aug 1, 2027. AWS cloud credits available separately.
+  domain: Earth science - data & informatics
+  keywords:
+    - interoperability
+    - cloud-native data
+    - ARCO / Zarr
+    - metadata
+    - data discovery
+    - AI-ready data
+    - AI agents / MCP
+    - open-source software
+  notes: "Proposals address one sub-area: (1) cloud-native format and ARCO tooling, (2) metadata into knowledge / discovery layer, (3) machine-actionable data for AI agents. PI must not be in ESIP elected leadership or ESIP-funded in the past year; civil servants can be PI/Co-I but cannot receive funds. No deadline time given on the page."
